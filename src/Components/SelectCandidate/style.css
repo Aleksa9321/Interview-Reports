@@ -1,0 +1,18 @@
+.select-candidate-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.select-candidate button {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 15px;
+    outline: none;
+}
+
+.select-candidate button:hover {
+    cursor: pointer;
+    background-color: #229cc2;
+    color: #f5f5f5;
+}

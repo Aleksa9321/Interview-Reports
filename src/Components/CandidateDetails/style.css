@@ -1,0 +1,66 @@
+.candidate-details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.candidate-details img {
+    width: 25%;
+}
+
+.user-details-data {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-details-data-el {
+    width: 50%;
+    padding: 0 5px;
+}
+
+.user-details-data-el p{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user-details-data-el h4{
+    margin: 20px 0;
+}
+
+.candidate-details table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.candidate-details table tr th{
+    border: 1px solid #000000;
+    padding: 5px 3px;
+}
+
+.candidate-details table tr td{
+    border: 1px solid #000000;
+    padding: 5px 3px;
+}
+
+.candidate-details table tr td button{
+    width: 100%;
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 15px;
+    outline: none;
+}
+
+.candidate-details table tr td button:hover{
+    cursor: pointer;
+    background-color: #229cc2;
+    color: #f5f5f5;
+}
+
+.no-reports {
+    text-align: center;
+}

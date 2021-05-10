@@ -1,0 +1,16 @@
+.create-report {
+    display: flex;
+}
+
+.create-report-steps {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.create-report-component {
+    width: 75%;
+}
